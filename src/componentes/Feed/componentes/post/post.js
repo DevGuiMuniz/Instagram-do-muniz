@@ -11,7 +11,7 @@ export default function Post(props) {
                 </div>
 
                 <div className="NomePerfilAutor">{props.nomePerfil}
-                  {props.nomePerfil}
+             
                 </div>
 
                 <div className="MenuBarraSuperior">
