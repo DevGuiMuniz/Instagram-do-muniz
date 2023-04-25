@@ -1,0 +1,58 @@
+.LadoEsquerdo{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+   max-width: 10px;
+   max-height: 40px;
+    
+}
+.logo img{
+    margin: 20px 20px;
+    max-width: 110px;
+}
+
+
+.menu-principal {
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px ;
+
+    
+}
+.menu-principal .icone{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.menu-principal span{
+    font-size:  20px;
+    margin: 10px 0;
+    font-weight: bold;
+   
+}
+.menu-principal li:hover {
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.056);
+    width: 115%;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    position: static;
+    top: 0;
+}
+.icone svg{
+    max-width: 45px;
+    max-height: 45px;
+    
+}

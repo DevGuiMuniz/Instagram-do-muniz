@@ -1,0 +1,28 @@
+.Story{
+    background: #ffff;
+    border: 2px solid rgb(194, 54, 133);
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    flex-direction: column;
+    margin: 15px 10px 10px 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+.Story :hover{
+opacity: 0.6;
+transition: 0.3s;
+}
+
+.Story img {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+}
+
+.Story .nomeStory{
+    text-align: center;
+    font-size: 13px;
+
+}
