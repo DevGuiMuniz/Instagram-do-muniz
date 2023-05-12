@@ -1,0 +1,54 @@
+.PerfilS{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1px 14px;
+
+}
+.SugesTexto{
+    display: flex;
+    gap: 1px;
+    align-items: left;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.ImgPerfil{
+    flex-grow: 0.1;
+}
+
+.ImgPerfil img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.SugestaoNome{
+    color: #000000;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Seguir{
+    cursor: pointer;
+    color: #0095F6;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.Seguir:hover{
+    color:#80ccff;
+}
+.SugePerfil{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 8px 16px;
+}

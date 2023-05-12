@@ -1,0 +1,103 @@
+.Feed {
+    margin-left: 60vh;
+}
+
+.Curtidas{
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.incons {
+    display: flex;
+    flex-wrap:nowrap;
+    margin: 4px 0 0;
+    padding: 0 0 6px;
+}
+
+.icons svg{
+    width: 24px;
+    height: 24px;
+}
+
+.icons button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.icons button{
+    padding: 8px;
+}
+
+.button1 svg{
+    width: 26px;
+    height: 26px;
+}
+
+.button4{
+    margin-left: 291px;
+}
+.Perffil p :hover{
+    color: #858585;
+}
+.Perffil{
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    font-size: 15px;
+}
+.FF p{
+    color: #000;
+    font-size: 14px;
+}
+
+.Perffil p {
+    margin-left: 5px;
+    color: default;
+}
+.Comentario{
+    color: #737373;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.ComentarioPT2{
+    display: flex;
+    align-items: center;
+}
+
+.ComentarioPT2 textarea{
+    resize: none;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    font-size: 14px;
+    width:83%;
+    height: 20px;
+    text-overflow: ellipsis;
+    max-height: 20px;
+}
+
+.Inferior{
+    border-bottom: 2px solid hsla(0,0%,50%,.596);
+    font-size: 14px;
+    height: 180px;
+}
+
+
+.legenda {
+    margin-left: 30px;
+}
+.Curtidas{
+    margin-right: 5px;
+}
+.Curtidas span{
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 5px;
+}
