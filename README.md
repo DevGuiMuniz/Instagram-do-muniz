@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# O clone do Instagram
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Esse projeto foi proposto pelo professor Gabriel e realizado pelo  Guilherme Muniz, aluno do Instituto Proa. Seu objetivo é criar uma copia do layout do instagram usando React e a linguagem de JavaScript.
 ## Available Scripts
 
 In the project directory, you can run:
