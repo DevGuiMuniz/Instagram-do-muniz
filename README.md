@@ -1,69 +1,18 @@
 # O clone do Instagram
 
 Esse projeto foi proposto pelo professor Gabriel e realizado pelo  Guilherme Muniz, aluno do Instituto Proa. Seu objetivo é criar uma copia do layout do instagram usando React e a linguagem de JavaScript.
-## Available Scripts
+## Instagram:
 
-In the project directory, you can run:
+<img  src= "https://github.com/DevGuiMuniz/Instagram-do-muniz/blob/main/imagem.png"></img>
+### `Como acessar?`
+  Após acessar o repositório baixe os arquivos. Abre seu VScode( Visual Studio Code) vai em file e "open folder". procure a pasta onde está localizado os arquivos do instagram. Em seguida abra o terminal do visual code. escreva no seu terminal:
+  ### `npm install`
+  
+  ao digitar aguarde alguns segundos pois o visual está baixando sua pasta `node modules`. Depois de baixar escreva novamente no seu terminal:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Após digitar o visual vai começar a processar e criar para você uma pagina web com a URL: `http://localhost:3000/` onde lá estará a copia do Instagram!
+    Pronto agora você tem a copia do instagram no seu proprio computador. Outra forma de acessar sem precisar baixar o arquivo é acessando o seguinte site:
+    https://instagram-eight-red.vercel.app/
+ 
