@@ -10,6 +10,7 @@ function Story(props) {
             <span>{props.nomeDaConta}</span>
         </div>
     </div>
+    
     )
 }
 

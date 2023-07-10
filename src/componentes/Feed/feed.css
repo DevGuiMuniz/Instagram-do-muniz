@@ -101,3 +101,10 @@
     font-weight: 700;
     margin-right: 5px;
 }
+
+
+@media (max-width: 800px){
+    .Feed{
+        margin-left: 12vh;
+    }
+}

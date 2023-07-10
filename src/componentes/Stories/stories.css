@@ -9,3 +9,17 @@
     padding: 10px;
     margin-left: 50vh;
 }
+.Stories1{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px){
+    .Stories{
+        margin-left: 9vh;
+        width: 63vh;
+    }
+    .Stories1{
+        visibility: hidden;
+    }
+}

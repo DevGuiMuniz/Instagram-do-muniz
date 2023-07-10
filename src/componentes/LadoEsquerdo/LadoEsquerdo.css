@@ -118,3 +118,27 @@
 .Todos span{
     margin-right: 200px;
 }
+
+@media (max-width: 800px){
+    .LadoEsquerdo{
+        width: 14vw;
+        height: 377vh;
+    }
+    .LadoEsquerdo span.texto{
+        visibility: hidden;
+    }   
+    .menuTexto{
+        visibility: hidden;
+    }
+    .logo img{
+        visibility: hidden;
+    }
+    .config{
+        margin: 300vw 0;
+    }
+     .ItemMenu:hover{
+        visibility: hidden;
+     }
+}
+
+

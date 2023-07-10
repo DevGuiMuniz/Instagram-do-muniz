@@ -2,6 +2,7 @@ import './stories.css'
 
 import Story from './componentes/Story';
 
+
 import imgPerfil01 from './imagens/sza.jpg';
 import imgPerfil02 from './imagens/theweeknd.jpg';
 import imgPerfil03 from './imagens/billie.jpg';
@@ -28,10 +29,13 @@ function Stories () {
             nomeDaConta="badgalriri"/>
             <Story imgPerfil = {imgPerfil05}
             nomeDaConta = "steve.lacy"/>
+            <div className='Stories1'>
             <Story imgPerfil ={imgPerfil06}
-            nomeDaConta ="InstitutoProa"/>
-            <Story imgPerfil ={imgPerfil07}
-            nomeDaConta ="Viúva"/>
+                nomeDaConta ="InstitutoProa"/>
+                <Story imgPerfil ={imgPerfil07}
+                nomeDaConta ="Viúva"/>
+            </div>
+               
         </div>
     )
 }
