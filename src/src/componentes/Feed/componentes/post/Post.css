@@ -1,0 +1,105 @@
+.Post {
+    
+    background: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 468px;
+    min-height: 518px;
+    margin: 12px 0 0 0;
+}
+
+.FeedCompleto{
+    
+    
+    flex-direction: column;
+   
+}
+.ConteudoPost {
+    
+    background: #cacaca;
+    width: 468px;
+    height: 468px;
+}
+
+.maisOpcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.maisOpcoes svg{
+    width: 24px;
+    height: 24px;
+}
+
+.ConteudoPost img{
+
+    width: 467px;
+    height: 470px;
+}
+.BarraSuperior {
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ImagemPerfilAutor {
+    border: 2px solid rgb(194, 54, 133);
+    border-radius: 60px;
+    background: #969696;
+    border-radius: 20px;
+    height: 38px;
+    width: 38px;
+    margin: 0 8px 0 8px;
+    transition: all 0.3s;
+}
+.ImagemPerfilAutor :hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.ImagemPerfilAutor img {
+    
+    width: 35px;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 0vh;
+    
+}
+.ImagemPerfilAutor img:hover {
+    color:rgb(31, 196, 196);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.NomePerfilAutor{
+    display: flex;
+}
+.MenuBarraSuperior {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+@media (max-width:500px){
+    .Post{
+        width: 295px;
+        
+        min-height: 550px;
+    }
+    .ConteudoPost img{
+        width: 295px;
+        height: 295px;
+    }
+    .ConteudoPost{
+
+        width: 295px;
+        height: 295px;
+    }
+}

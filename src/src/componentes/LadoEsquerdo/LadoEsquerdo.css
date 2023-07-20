@@ -1,0 +1,165 @@
+.LadoEsquerdo{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+   max-width: 10px;
+   max-height: 40px;
+    
+}
+.logo img{
+    margin: 20px 20px;
+    max-width: 110px;
+}
+
+.menuInferior{
+    margin: 4px 0;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menuInferior:hover{
+    background: #F2F2F2;
+    border-radius: 5px;
+    transition: background 300ms;
+}
+.LogoInsta svg{
+    cursor: pointer;
+    height: 70vh;
+    width: 24px;
+    margin-left: 18px;
+}
+.menu-principal {
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 210px;
+    gap: 10px;
+    
+}
+.menu-principal .icone{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.menu-principal span{
+    font-size:  20px;
+    margin: 12px 8px;
+    font-weight: bold;
+   
+}
+.ItemMenu:hover{
+    background: #F2F2F2;
+    border-radius: 5px;
+    transition: background 300ms;
+}
+.menu-principal li:hover {
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.056);
+    width: 115%;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    position: static;
+    top: 0;
+}
+.icone svg{
+    max-width: 45px;
+    max-height: 45px;
+    
+}
+.Reels img{
+    height: 23px;
+   
+}
+
+.config{
+    margin: 86px 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.config:hover{
+    background: #F2F2F2;
+    border-radius: 5px;
+    transition: background 300ms;
+}
+.menuIcone svg{
+    width: 24px;
+    height: 24px;
+}
+.menuTexto{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 0 16px;
+}
+
+.Todos{
+    align-items: center;
+    height: 19px;
+    
+}
+.Todos img{
+    
+    text-align: center;
+    width: 39px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.Todos span{
+    margin-right: 200px;
+}
+
+@media (max-width: 800px){
+    
+    .LadoEsquerdo{
+        width: 14vw;
+        height: 377vh;
+    }
+    .LadoEsquerdo span.texto{
+        visibility: hidden;
+    }   
+    .menuTexto{
+        visibility: hidden;
+    }
+    .logo{
+        max-height: 5px;
+    }
+    .logo img{
+        visibility: hidden;
+    }
+    .config{
+        margin: 300vw 0;
+    }
+     .ItemMenu:hover{
+        visibility: hidden;
+     }
+     .Todos img{
+        margin-left: 8px;
+     }
+}
+
+@media (max-width:500px){
+
+    .config{
+        margin: 70px 0px;
+    }
+}
+@media (min-width: 800px){
+    .LogoInsta{visibility: hidden;}
+}

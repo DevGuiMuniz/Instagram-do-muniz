@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin-right: 5px;
+}
+
+body{
+    background: #FaFaFa;
+}
+
+@media (max-width: 800px){
+    *{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+   
+}
+    
+}

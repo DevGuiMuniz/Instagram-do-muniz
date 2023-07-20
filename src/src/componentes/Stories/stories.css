@@ -1,0 +1,31 @@
+.Stories {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    height: 150px;
+    margin: 20px 0;
+    padding: 10px;
+    margin-left: 50vh;
+}
+.Stories1{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px){
+    .Stories{
+        margin-left: 9vh;
+        width: 63vh;
+    }
+    .Stories1{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 500px){
+   .Stories{
+    width: 51vh;
+   }
+}
